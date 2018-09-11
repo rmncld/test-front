@@ -1,0 +1,14 @@
+@import "vendors/normalize";
+@import "vendors/font-awesome/font-awesome";
+@import "vendors/font-awesome/fa-brands";
+@import "vendors/font-awesome/fa-light";
+@import "vendors/font-awesome/fa-regular";
+@import "vendors/font-awesome/fa-solid";
+
+$color-primary: #28a49a;
+
+body{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}

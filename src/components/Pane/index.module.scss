@@ -1,0 +1,23 @@
+.pane{
+  border:1px solid lightgrey;
+  padding:10px;
+  border-radius:4px;
+  display: flex;
+  justify-content: space-between;
+  position:relative;
+}
+
+.withCover{
+  padding-left:70px;
+}
+
+.cover{
+  width:60px;
+  height:100%;
+  background-size:cover;
+  background-position:center;
+  position:absolute;
+  top:0px;
+  bottom:0px;
+  left:0px;
+}
