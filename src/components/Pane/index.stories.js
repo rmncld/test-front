@@ -2,9 +2,9 @@ import React from 'react';
 import { storiesOf } from "@storybook/react";
 
 import Pane from "./";
-import Img from "./example.png";
+import Img from "./gardener_cover.png";
 
-storiesOf('Pane', module)
+storiesOf('Exercise/Components/Pane', module)
   .add('default', () => (
     <Pane />
   )).add('with cover', () => (
