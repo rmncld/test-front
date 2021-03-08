@@ -3,7 +3,7 @@ import { storiesOf } from "@storybook/react";
 
 import Button from "./";
 
-storiesOf('Button', module)
+storiesOf('Exercise/Components/Button', module)
   .add('with text', () => (
     <Button>My button</Button>
   )).add('with some emoji', () => (
