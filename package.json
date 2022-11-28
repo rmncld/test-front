@@ -29,5 +29,8 @@
     "build-storybook": "build-storybook"
   },
   "author": "Publidata",
-  "license": "ISC"
+  "license": "ISC",
+  "engines" : {
+    "node" : ">=14.0.0 <17.0.0"
+  }
 }
