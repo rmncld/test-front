@@ -11,8 +11,8 @@ This test mainly uses Storybook (https://github.com/storybooks/storybook), React
 
 ### 🔌 Installation
 
-1. Install dependencies : `npm install`
-2. Run : `npm run storybook`
+1. Install dependencies : `yarn install`
+2. Run : `yarn storybook`
 3. Open : http://localhost:6006/
 
 ### 💪 Exercise
@@ -21,8 +21,8 @@ Turn the image below into storybook components: small, reusable, and testable �
 
 :warning: All necessary resources are already provided in repository :
 
-- colors: in main sass file https://github.com/guillaumj/publidata-test-front/blob/master/src/assets/styles/main.scss
-- fonts: Source Sans Pro, font-awesome (see : https://fontawesome.com/icons), unicode (for emoji 🐝 & 🙆)
-- image: https://github.com/guillaumj/publidata-test-front/blob/master/src/components/Pane/example.png
+- colors: in main sass file https://github.com/publidata/test-front/blob/master/src/assets/styles/main.scss
+- fonts: Source Sans Pro, font-awesome (see : https://fontawesome.com/v5/search), unicode (for emoji 🐝 & 🙆)
+- image: https://github.com/publidata/test-front/blob/master/src/components/Pane/gardener_cover.png
 
 <img src="https://s3-eu-west-1.amazonaws.com/publidata-prod/resources/sample.png" width="405">
