@@ -1,7 +1,7 @@
 import React from 'react';
 import { storiesOf } from "@storybook/react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faMapMarker } from '@fortawesome/free-solid-svg-icons'
+import { faChevronRight, faMapMarker } from '@fortawesome/free-solid-svg-icons'
 
 import Button from "./";
 
@@ -18,4 +18,8 @@ storiesOf('Exercise/Components/Button', module)
     <Button type="dark">My button</Button>
   )).add('with size', () => (
     <Button size="sm">My button</Button>
-  ));
+  )).add('with faChevronright', () => (
+    <Button>
+      <FontAwesomeIcon icon={faChevronRight} />
+    </Button>
+  ))

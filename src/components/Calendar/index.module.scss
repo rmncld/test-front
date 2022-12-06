@@ -1,0 +1,28 @@
+.box {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    line-height: normal;
+    padding: 1px 6px;
+    border-radius: 3px;
+    margin-right: 20px;
+    margin-left: 4px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    
+    .month {
+        border-top: 1px solid $text-secondary;
+        color: $text-secondary;
+        font-size: 14px;
+        text-align: center;
+        padding-bottom: 4px;
+
+    }
+    .day {
+        font-size: 16px;
+        font-size: large;
+        padding: 4px;
+        margin-top: -2px;
+        color: $color-primary;
+    }
+}

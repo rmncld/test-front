@@ -1,19 +1,20 @@
+
 :global{
   .btn-primary{
     background-color:$color-primary;
-    border-color:$color-primary;
-
-    &:hover, &:focus, &:active, &:not(:disabled):not(.disabled):active{
-      background-color: darken($color-primary, 8%);
-      border-color: darken($color-primary, 8%);
+    border: none;
+    border-color: $color-primary;
+    margin: 20px 10px;
+    padding: 22px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &:hover {
+      opacity: 0.4;
     }
   }
-}
-
-.btn{
-
-}
-
-.sm{
-
 }
