@@ -4,9 +4,9 @@
   "description": "Publidata react integration test repository",
   "main": "index.js",
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^1.2.36",
+    "@fortawesome/fontawesome-svg-core": "^6.2.1",
     "@fortawesome/free-brands-svg-icons": "^5.15.4",
-    "@fortawesome/free-solid-svg-icons": "^5.15.4",
+    "@fortawesome/free-solid-svg-icons": "^6.2.1",
     "@fortawesome/react-fontawesome": "^0.1.15",
     "css-loader": "^5.1.1",
     "react": "^16.5.0",
@@ -30,7 +30,7 @@
   },
   "author": "Publidata",
   "license": "ISC",
-  "engines" : {
-    "node" : ">=14.0.0 <17.0.0"
+  "engines": {
+    "node": ">=14.0.0 <17.0.0"
   }
 }

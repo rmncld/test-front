@@ -4,8 +4,17 @@
 @import "vendors/font-awesome/fa-light";
 @import "vendors/font-awesome/fa-regular";
 @import "vendors/font-awesome/fa-solid";
+@font-face {
+  font-family: "Source Sans Pro";
+  src: local("SourceSansPro"),    
+  url("/src/assets/fonts/SourceSansPro-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
 
 $color-primary: #28a49a;
+$text-primary: #000;
+$text-secondary: #7f7e7e;
+$text-white: #fff;
 
 body{
   font-family: 'Source Sans Pro', sans-serif;
